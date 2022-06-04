@@ -7,7 +7,7 @@ namespace TimeSource;
 /**
  * A time source that always returns a fixed time.
  */
-class Fixed implements TimeSourceInterface
+class Fixed extends AbstractTimeSource
 {
     /** @var \DateTimeInterface */
     private $time;

@@ -7,7 +7,7 @@ namespace TimeSource;
 /**
  * A time source implementation that uses the PHP system time.
  */
-class System implements TimeSourceInterface
+class System extends AbstractTimeSource
 {
     public function now(): \DateTimeInterface
     {

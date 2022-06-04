@@ -8,4 +8,6 @@ namespace TimeSource;
 interface TimeSourceInterface
 {
     public function now(): \DateTimeInterface;
+
+    public function today(): \DateTimeInterface;
 }
